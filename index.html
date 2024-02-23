@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Estilo de la tabla -->
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      }
+    table {
+        margin: 20px;
+        ;
+      }
+      h1{
+        text-align: center;
+      }
+      h1, h3 {
+        text-decoration: underline;
+      }
+      hr {
+        color: red;
+      }
+  </style>
+  <title>Centro Médico Ñuñoa</title>
+</head>
+<body>
+
+  <section>
+    <!-- Tabla pacientes Radiología -->
+    <h3>Radiología</h3>
+    <table id="tablaRadiologia"></table>
+  </section>
+
+  <section>
+    <!-- Tabla pacientes Traumatología -->
+    <h3>Traumatología</h3>
+    <table id="tablaTraumatologia"></table>
+  </section>
+
+  <section>
+    <!-- Tabla pacientes Dental -->
+    <h3>Dental</h3>
+    <table id="tablaDental"></table>
+  </section>
+  <br>
+
+  <!-- Datos para mostrar en las tablas -->
+  <script src="assets/js/radiologia.js"></script>
+  <script src="assets/js/traumatologia.js"></script>
+  <script src="assets/js/dental.js"></script>
+
+</body>
+</html>
